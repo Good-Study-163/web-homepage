@@ -1,15 +1,20 @@
 <template>
     <div>
+        Home
+        <router-link to="/backend">backend</router-link>
+        <router-link to="/frontend">frontend</router-link>
+        <router-link to="/recommended">recommended</router-link>
+        <router-view></router-view>
     </div>
 </template>
 
 <script lang="ts">
-    import {
-        defineComponent
-    } from 'vue';
+import {
+    defineComponent
+} from 'vue';
 
-    export default defineComponent({
-        name: 'Home',
-        components: {},
-    });
+export default defineComponent({
+    name: 'Home',
+    components: {},
+});
 </script>

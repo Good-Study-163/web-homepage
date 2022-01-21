@@ -1,5 +1,5 @@
 <template>
-    <div>Backend</div>
+    <div>frontend</div>
 </template>
 
 <script lang="ts">
@@ -8,7 +8,7 @@ import {
 } from 'vue';
 
 export default defineComponent({
-    name: 'Backend',
+    name: 'Frontend',
     components: {},
 });
 </script>
